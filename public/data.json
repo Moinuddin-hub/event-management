@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/JyjNjmm/wedd.webp",
+      "name": "Weddings",
+      "description": "A wedding is a ceremony where two people are united in marriage. Wedding traditions and customs vary greatly between cultures, ethnic groups",
+      "price": 15000
+    
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/bQtS9fb/birtday.png",
+      "name": "Birthday party",
+      "description": "A birthday party is an occasion to celebrate a person’s birth. It can be a small gathering of friends and family and other relative",
+      "price": 25000
+      
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/7gTSjpg/anniver.webp",
+      "name": "Anniversaries",
+      "description": "Anniversaries are an important part of life. They remind us of important events, both personal and cultural. Whether we’re marking ",
+      "price": 10000
+     
+    },
+    { 
+      "id": 4,
+      "image": "https://i.ibb.co/y5qrgGF/engagmen.jpg",
+      "name": "Engagement",
+      "description": "The mutual promise of two people to marry, is called an engagement. With an engagement, the couple testifies to their desire to marry.",
+      "price": 35000
+     
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/F3QT5CS/riterment.jpg",
+      "name": "Retirement ",
+      "description": "Retirement refers to the time of life when one chooses to permanently leave the workforce behind. The traditional retirement age is 65 ",
+      "price": 19000
+     
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/X5WNMfH/Baby.jpg",
+        "name": "Baby Shower",
+        "description": "A baby shower is a party centered on gift-giving to celebrate the delivery or expected birth of a child.A baby shower is a party centered  ",
+        "price": 23000
+       
+      }
+    
+]
