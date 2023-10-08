@@ -7,6 +7,11 @@ import Home from './Pages/Home/Home';
 import NotFound from './Components/Navbar/NotFound';
 import Service from './Components/Navbar/Service';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
+import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
+import AuthProvider from './Pages/Provider/AuthProvider';
+import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import Gallery from './Components/Gallary/Gallary';
 
 const router = createBrowserRouter([
   {
@@ -15,21 +20,26 @@ const router = createBrowserRouter([
     errorElement:<NotFound></NotFound>,
     children:[
       {
-        path:'/home',
+        path:'/',
         element:<Home></Home>,
         loader:()=> fetch('./data.json')
       },
       {
-        path:'/service',
-        element:<Service></Service>
+        path:'/gallery',
+        element:<Gallery></Gallery>
       },
       {
         path:'/data/:id',
-        element:<ServiceDetails></ServiceDetails>,
+        element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
         loader:()=> fetch('./data.json')
       },
       {
-        
+        path:'/login',
+        element:<Login></Login>
+      },
+      {
+          path:'/register',
+          element:<Register></Register>
       }
 
     ]
@@ -38,6 +48,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+    <AuthProvider>
+    <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>,
 )

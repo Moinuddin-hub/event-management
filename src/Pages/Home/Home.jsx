@@ -4,6 +4,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Banner from "../Banner/Banner";
 import Service from "../../Components/Navbar/Service";
 import Footer from "../../Components/Footer/Footer";
+import Prices from "../Prices/Prices";
 const Home = () => {
 
     const data=useLoaderData();
@@ -18,6 +19,7 @@ const Home = () => {
             data.map(data=><Service key={data.id} data={data}></Service>)
            }
         </div>
+        <Prices></Prices>
         <Footer></Footer>
     </div>
     );
