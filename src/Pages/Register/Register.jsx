@@ -42,11 +42,11 @@ const handleRegister=(e)=>{
 
     return (
         <>
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="mx-auto lg:h-96">
+                <div className=" w-3/4 mt-8 lg:w-full ml-16 flex-col lg:flex-row-reverse ">
               
-                    <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                        <form onSubmit={handleRegister} className="card-body">
+                    <div className="card lg:mx-auto flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                        <form onSubmit={handleRegister} className="card-body w-80 lg:w-full">
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Full Name</span>

@@ -13,11 +13,11 @@ const Home = () => {
 
     return (
     <div className="">
-       <div className="mt-8">
-       
+       <div className="mt-8 w-1/3 ml-8 lg:w-full lg:ml-1 md:w-3/4">
+        <Banner></Banner>  
        </div>
-        <h2 className="text-3xl text-center font-bold">Our service</h2>
-            <div className="grid grid-cols-3 gap-4">
+        <h2 className="text-3xl text-center font-bold mt-8">Our service</h2>
+            <div className="grid grid-cols-1 ml-24 text-center mt-24 md:grid-cols-2 lg:grid-cols-3  gap-4">
            {
             data.map(data=><Service key={data.id} data={data}></Service>)
            }

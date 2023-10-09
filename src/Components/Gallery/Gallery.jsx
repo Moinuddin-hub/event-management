@@ -4,7 +4,7 @@ const Gallery = () => {
     return (
         <>
          <h2 className="text-4xl text-center py-8" > Our Gallery</h2>
-        <div className='grid grid-cols-3 gap-4'>
+        <div className='grid grid-cols-1 ml-8 md:grid-cols-2 lg:grid-cols-3 gap-4'>
            
            <div className="">
             <img src="https://i.ibb.co/5M4WNys/picture1.jpg" alt="" className="w-96 h-82" />

@@ -21,7 +21,7 @@ const {user,logOut}=useContext(AuthContext)
     </>
     return (
       <>
-        <div className="navbar bg-slate-100">
+  <div className="navbar w-2/5 lg:w-full md:w-3/4 bg-slate-100">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -31,14 +31,14 @@ const {user,logOut}=useContext(AuthContext)
         {NavLinks}
       </ul>
     </div>
-      <img src="https://i.ibb.co/dGQtRfN/logo.jpg" alt="" className="w-16 h-14" />
+      <img src="https://i.ibb.co/dGQtRfN/logo.jpg" alt="" className="w-16 h-14 " />
   </div>
-  <div className="navbar-center  lg:flex">
+  <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-lg">
       {NavLinks}
     </ul>
   </div>
-  
+
 
  {/* avatar part  */}
  <div className="navbar-end">

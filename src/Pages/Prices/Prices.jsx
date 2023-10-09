@@ -4,7 +4,7 @@ const Prices = () => {
     return (
         <>
         <h2 className="text-3xl text-center font-bold">Our Prices</h2>
-        <div className='grid grid-cols-4 mt-4 '>
+        <div className='grid grid-cols-1 ml-28  gap-4 mt-32 lg:grid-cols-4 lg:w-full lg:ml-5 md:grid-cols-2 '>
             
     <div className=" w-64 shadow-xl bg-slate-600">
   <div className="text-center">
