@@ -1,8 +1,9 @@
-# React + Vite
+Five features and functionalities of your website are written below.
+.This website is social event management system.6 service section and provide different service 
+.This website many feature such as wedding,Birthday party,Anniversary,Engagement,Retirement,baby shower.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+.This website has authentication system .Login and Register and implement privateRoute.
 
-Currently, two official plugins are available:
+.This website has many picture of various event.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+.Our services provide many opportunities every event and give low cost.
