@@ -17,7 +17,7 @@ const ServiceDetails = () => {
   },[id,data])
 
     return (
-        <div className='w-96 mx-auto flex'>
+        <div className='w-96 mt-8 mx-auto flex'>
         
            <ServiceCard card={card}></ServiceCard> 
         

@@ -15,9 +15,13 @@ const handleRegister=(e)=>{
     console.log(name,email,image,password);
 
     // Validation
-    if(password.length <6){
-      toast.error('password must be  at least 6 characters')
-      return;
+    // if(password.length <6){
+    //   toast.error('password must be  at least 6 characters')
+    //   return;
+    // }
+    if(!/^(?=.*[A-Z])(?=.*[!@#$%^&*]).{6,}$/.test(password)){
+        toast.error('password must be  at least 6 characters and strong password')
+        return
     }
         // creating a new user
         singUp(email, password)
@@ -25,7 +29,7 @@ const handleRegister=(e)=>{
                 UpdateProfile(name, image)
                     .then(() => {
                         toast.success('User created successfully');
-                        navigate('/')
+                        navigate('/login')
 
                     })
             })
@@ -71,7 +75,7 @@ const handleRegister=(e)=>{
                                 <input type="password" name='password' placeholder="password" className="input input-bordered"  />
                             </div>
                             <div className="form-control mt-6 p-0">
-                                <button className="btn btn-neutral" type='submit'>Register</button>
+                                <button className="btn btn-primary" type='submit'>Register</button>
                             </div>
 
                             <label className="label">

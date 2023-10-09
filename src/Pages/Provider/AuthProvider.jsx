@@ -9,26 +9,28 @@ const googleProvider = new GoogleAuthProvider();
 
 const AuthProvider = ({children}) => {
   const [user,setUser]=useState({})
-  const [waiting,setWaiting]=useState(true)
+  const [loading, setLoading] = useState(true)
 
 // GoogleLogin
 const googleLogin=()=>{
-    setWaiting(true)
+  setLoading(true)
    return signInWithPopup(auth, googleProvider);
 }
 // SingUp
 const singUp=(email,password)=>{
+  setLoading(true)
   return createUserWithEmailAndPassword(auth, email, password)
 }
 // Login
 const singIn=(email,password)=>{
+  setLoading(true)
  return  signInWithEmailAndPassword(auth, email, password)
 }
 
 useEffect(()=>{
   onAuthStateChanged(auth, (user) => {
       setUser(user);
-      setWaiting(false)
+      setLoading(false)
   });
 },[])
 // LogOut
@@ -49,7 +51,7 @@ singIn,
 user,
 logOut,
 UpdateProfile,
-waiting,
+loading
 
 
 }

@@ -5,14 +5,14 @@ import { createBrowserRouter,RouterProvider,} from "react-router-dom";
 import "./index.css";
 import Home from './Pages/Home/Home';
 import NotFound from './Components/Navbar/NotFound';
-import Service from './Components/Navbar/Service';
+
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import AuthProvider from './Pages/Provider/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
-import Gallery from './Components/Gallary/Gallary';
-
+import Gallery from './Components/Gallery/Gallery';
+import Services from './Components/Services/Services';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,7 +26,11 @@ const router = createBrowserRouter([
       },
       {
         path:'/gallery',
-        element:<Gallery></Gallery>
+        element:<PrivateRoute><Gallery></Gallery></PrivateRoute>
+      },
+      {
+          path:'/service',
+          element:<PrivateRoute><Services></Services></PrivateRoute>
       },
       {
         path:'/data/:id',

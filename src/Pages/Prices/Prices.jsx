@@ -9,7 +9,7 @@ const Prices = () => {
     <div className=" w-64 shadow-xl bg-slate-600">
   <div className="text-center">
     <h2 className=" text-xl  font-bold bg-primary text-yellow-100 text-center mt-4 py-2">For Weddings</h2>
-    <p className='text-3xl font-bold text-yellow-100 '>$250.99</p>
+    <p className='text-3xl font-bold text-yellow-100 '>2500TK</p>
     
   <ul className="p-8 text-teal-50 ml-8">
         <li className='flex items-center '> <BsCheck></BsCheck>Full service</li>
@@ -25,7 +25,7 @@ const Prices = () => {
 <div className=" w-64 shadow-xl bg-slate-600">
   <div className="text-center">
     <h2 className=" text-xl  font-bold bg-primary text-yellow-100 text-center mt-4 py-2">For Birthday</h2>
-    <p className='text-3xl font-bold text-yellow-100 '>$250.99</p>
+    <p className='text-3xl font-bold text-yellow-100 '>28000Tk</p>
     
   <ul className="p-8 text-teal-50 ml-8">
         <li className='flex items-center '> <BsCheck></BsCheck>Full service</li>
@@ -41,7 +41,7 @@ const Prices = () => {
 <div className=" w-64 shadow-xl bg-slate-600">
   <div className="text-center">
     <h2 className=" text-xl  font-bold bg-primary text-yellow-100 text-center mt-4 py-2">For Anniversaries</h2>
-    <p className='text-3xl font-bold text-yellow-100 '>$250.99</p>
+    <p className='text-3xl font-bold text-yellow-100 '>1500TK</p>
     
   <ul className="p-8 text-teal-50 ml-8">
         <li className='flex items-center '> <BsCheck></BsCheck>Full service</li>
@@ -57,7 +57,7 @@ const Prices = () => {
 <div className=" w-64 shadow-xl bg-slate-600">
   <div className="text-center">
     <h2 className=" text-xl  font-bold bg-primary text-yellow-100 text-center mt-4 py-2">For Engagementy</h2>
-    <p className='text-3xl font-bold text-yellow-100 '>$250.99</p>
+    <p className='text-3xl font-bold text-yellow-100 '>22000Tk</p>
     
   <ul className="p-8 text-teal-50 ml-8">
         <li className='flex items-center '> <BsCheck></BsCheck>Full service</li>

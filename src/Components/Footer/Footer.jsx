@@ -4,10 +4,12 @@ const Footer = () => {
         <footer className="footer p-10 bg-base-300 text-base-content mt-8">
         <nav>
           <header className="footer-title">Services</header> 
-          <a className="link link-hover">Branding</a> 
-          <a className="link link-hover">Design</a> 
-          <a className="link link-hover">Marketing</a> 
-          <a className="link link-hover">Advertisement</a>
+          <a className="link link-hover">Weddings</a> 
+          <a className="link link-hover">Birthday party</a> 
+          <a className="link link-hover">Anniversaries</a> 
+          <a className="link link-hover">Engagement</a>
+          <a className="link link-hover">Retirement</a>
+          <a className="link link-hover">Baby Shower</a>
         </nav> 
         <nav>
           <header className="footer-title">Company</header> 
